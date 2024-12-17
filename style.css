@@ -1,0 +1,58 @@
+* {
+    list-style: none;
+}
+
+body {
+    text-align: center;
+}
+
+.teclado ul {
+    display: flex;
+    gap: 10px;
+}
+
+.teclado button {
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.teclado ul {
+    margin-right: 30px;
+}
+
+.calc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #262626;
+    padding: 50px 10px 50px 0;
+    border-radius: 5px;
+}
+.calc p {
+    margin-left: 5px;
+    text-align: left;
+}
+
+.visor {
+    width: 81%;
+    margin-left: 40px;
+    border: 1px solid #c9c9c9;
+    border-radius: 2px;
+    color: #fff;
+
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+}
+
+.zero {
+    width: 150px;
+}
+
+.igual {
+    width: 150px;
+}

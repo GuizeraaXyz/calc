@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora!</h1>
+    </header>
+    <main>
+        <div class="content">
+            <div class="calc">
+                <div class="visor">
+                    <p id="visor">0</p>
+                </div>
+                <div class="teclado">
+                    <ul>
+                        <li><button onclick="salvar_num(this)">1</button></li>
+                        <li><button onclick="salvar_num(this)">2</button></li>
+                        <li><button onclick="salvar_num(this)">3</button></li>
+                        <li><button onclick="salvar_op('+')" style="margin: 2px;">+</button></li>
+                    </ul>
+                    <ul>
+                        <li><button onclick="salvar_num(this)">4</button></li>
+                        <li><button onclick="salvar_num(this)">5</button></li>
+                        <li><button onclick="salvar_num(this)">6</button></li>
+                        <li><button onclick="salvar_op('-')" style="margin: 2px;">-</button></li>
+                    </ul>
+                    <ul>
+                        <li><button onclick="salvar_num(this)">7</button></li>
+                        <li><button onclick="salvar_num(this)">8</button></li>
+                        <li><button onclick="salvar_num(this)">9</button></li>
+                        <li><button onclick="salvar_op('*')" style="margin: 2px;">X</button></li>
+                    </ul>
+                    <ul class="end">
+                        <li><button class="zero" onclick="salvar_num(this)">0</button></li>
+                        <li><button class="igual" onclick="calcular()">=</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
